@@ -45,7 +45,7 @@ cd IU-python-assignment
 3.  Create a conda environment with the required dependencies:
 
 ```bash
-conda create --name <env> --file requirements.txt
+conda create --name <env>
 ```
 
 4.  Activate the conda environment:
@@ -54,7 +54,13 @@ conda create --name <env> --file requirements.txt
 conda activate <env>
 ```
 
-5.  Run the script:
+5.Install the required packages using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+6.  Run the script:
 
 ```bash
 python main.py
@@ -71,6 +77,7 @@ To run the unittests, follow these steps:
 ```bash
 cd IU-python-assignment
 ```
+
 2.  Activate the conda environment:
 
 ```bash
